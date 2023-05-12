@@ -2,7 +2,7 @@
   "name": "filmoteca",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://damanosalvag.github.io/filmoteca",
+  "homepage": "https://damanosalvag.github.io/filmoteca/",
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
