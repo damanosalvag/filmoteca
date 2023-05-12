@@ -1,6 +1,6 @@
 import getMovies from "./request-api";
-import genresList from './genres';
-import getGenres from './genres-request';
+import genresList from '../genres';
+import getGenres from '../genres-request';
 
 const movieName = document.getElementById('text-search');
 const onSearchBtn = document.getElementById('btn-search');
