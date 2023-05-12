@@ -2,8 +2,8 @@ import axios from "axios";
 
 const KEY_API = '1c40c07b431bd44c3eec1b5bff019241';
 
-export default function getMovies(name, page) {
-    return axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${KEY_API}&query=${name}&language=en-US&page=${page}`)
+export default function getTrending() {
+    return axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=${KEY_API}&language=en-US`)
         .then((response) => {
             return response;
         })
