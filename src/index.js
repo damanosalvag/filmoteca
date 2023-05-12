@@ -7,7 +7,6 @@ const onSearchBtn = document.getElementById('btn-search');
 const filmsRender = document.getElementById('films');
 const defaultPoster = "https://firebasestorage.googleapis.com/v0/b/filmoteca-c42e2.appspot.com/o/images%2Fdefault-opt.jpg?alt=media&token=8d34f416-268a-4f03-a309-841d27ec0d59";
 
-
 // render pictures
 async function renderPost(posts, page, listGenres) {
     try {
