@@ -6,5 +6,14 @@ export const varDOM = {
     genresList: function (ids_movie, movieListGenres) {
     const genres = movieListGenres.filter(movie => ids_movie.includes(movie.id)).map(genre => genre.name);
     return genres;
-    }
+    },
+    modalContainer: document.querySelector('#myModal'),
+    modalP: document.querySelector('p'),
+    modalCloseBtn: document.querySelector('.close'),
+    modalImgPoster: document.querySelector('.modal-block-poster'),
+    modalTitle: document.querySelector('.modal-block__title'),
+    modalInfoValues: document.querySelector('.film-info__values'),
+    modalDescMovie: document.querySelector('.description-text'),
+    modalWatchedBtn: document.getElementById('watch-button'),
+    modalQueueBtn: document.getElementById('queue-button')
 };
