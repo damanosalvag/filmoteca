@@ -58,7 +58,7 @@ onSearchBtn.addEventListener('click', async () => {
         const id_movie = movie.querySelector('a');
         movie.addEventListener('click', () => {
             modalContainer.style.display = "block";
-            modalP.textContent = id_movie.dataset.id;
+            detailsMovieValues(id_movie.dataset.id);
         });
     });
      
