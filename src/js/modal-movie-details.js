@@ -38,5 +38,6 @@ export async function detailsMovieValues(id_movie) {
     modalInfoValues.innerHTML = markup;
     // Description
     modalDescMovie.textContent = overview;
+    
 }
 
